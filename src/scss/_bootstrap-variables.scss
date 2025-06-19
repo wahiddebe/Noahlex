@@ -80,6 +80,7 @@ $neutral-300: #CBD5E0 !default; // adminlte-modified
 $neutral-200: #F1F2F4 !default; // adminlte-modified
 $neutral-100: #F8F8F8 !default; // adminlte-modified
 $neutral-50:  #FAFAFA !default; // adminlte-modified
+$sub-500:#525866 !default; // adminlte-modified
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -127,7 +128,8 @@ $colors: (
   "neutral-300": $neutral-300, // adminlte-modified
   "neutral-200": $neutral-200, // adminlte-modified
   "neutral-100": $neutral-100, // adminlte-modified
-  "neutral-50":  $neutral-50  // adminlte-modified
+  "neutral-50":  $neutral-50 , // adminlte-modified
+  "sub-500": $sub-500 // adminlte-modified
 
 ) !default;
 // scss-docs-end colors-map
@@ -413,7 +415,8 @@ $theme-colors: (
   "neutral-300": $neutral-300, // adminlte-modified
   "neutral-200": $neutral-200, // adminlte-modified
   "neutral-100": $neutral-100, // adminlte-modified
-  "neutral-50":  $neutral-50  // adminlte-modified
+  "neutral-50":  $neutral-50 , // adminlte-modified
+  "sub-500": $sub-500 // adminlte-modified
 
 
 
@@ -517,6 +520,12 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  32: $spacer * 2,
+  40: $spacer * 2.5,
+  10: $spacer * .625,
+  12: $spacer * .75,
+  64: $spacer * 4,
+  _5: $spacer * .125,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -574,7 +583,7 @@ $icon-link-icon-transform:    translate3d(.25em, 0, 0) !default;
 //
 // Style p element.
 
-$paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom:   0rem !default;
 
 
 // Grid breakpoints
@@ -758,7 +767,7 @@ $font-sizes: (
 // scss-docs-end font-sizes
 
 // scss-docs-start headings-variables
-$headings-margin-bottom:      $spacer * .5 !default;
+$headings-margin-bottom:      0 !default;
 $headings-font-family:        null !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        500 !default;
@@ -778,7 +787,7 @@ $display-font-sizes: (
 
 $display-font-family: null !default;
 $display-font-style:  null !default;
-$display-font-weight: 300 !default;
+$display-font-weight: 500 !default;
 $display-line-height: $headings-line-height !default;
 // scss-docs-end display-headings
 
